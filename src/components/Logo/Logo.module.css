@@ -1,0 +1,67 @@
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.q,
+.u,
+.b {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  transition:
+    transform 0.3s,
+    width 0.3s,
+    height 0.3s;
+}
+
+.b {
+  margin-right: 0;
+}
+
+.q {
+  box-shadow: inset 0 0 0 3px #1c1c1c;
+}
+
+.u {
+  box-shadow:
+    inset 3px -3px 0 0 #1c1c1c,
+    inset -3px -3px 0 0 #1c1c1c;
+}
+
+.b {
+  box-shadow: inset 0 0 0 3px #1c1c1c;
+}
+
+.q::after,
+.b::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  box-shadow: inset 0 0 0 3px #1c1c1c;
+  transition:
+    bottom 0.3s,
+    background-color 0.1s,
+    box-shadow 0.1s,
+    transform 0.3s,
+    width 0.3s,
+    height 0.3s;
+}
+
+.q::after {
+  right: 0;
+  bottom: -21px;
+}
+
+.b::after {
+  left: 0;
+  top: -21px;
+}

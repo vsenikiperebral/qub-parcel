@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.nav li {
+  transition:
+    color 0.2s,
+    transform 0.2s;
+}
+
+.nav li:hover {
+  transform: translateY(3px);
+}
+
+.left {
+  display: flex;
+  gap: 3rem;
+  margin-left: 14rem;
+}
+
+.right {
+  display: flex;
+  gap: 3rem;
+  margin-right: 14rem;
+}
+
+.nav a {
+  color: #1c1c1c;
+}
+
+.left li a:hover {
+  color: #00aeef;
+}
+
+.right li a:hover {
+  color: #fd6f7b;
+}

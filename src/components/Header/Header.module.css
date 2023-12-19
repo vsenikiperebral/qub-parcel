@@ -1,0 +1,11 @@
+.header {
+  height: 100px;
+  background-color: transparent;
+  border: 1px solid red;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition:
+    background-color 0.3s,
+    height 0.3s;
+}

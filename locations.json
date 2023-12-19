@@ -1,0 +1,28 @@
+[
+  {
+    "id": "id-1",
+    "title": "Святой Влас",
+    "type": "Город",
+    "n": "42° 42' 59.99 N",
+    "e": "27° 45' 59.99 E",
+    "gradient": "linear-gradient(0deg, #FD6F7B, transparent)"
+  },
+
+  {
+    "id": "id-2",
+    "title": "Несебыр",
+    "type": "Город",
+    "n": "42° 39' 33.16 N",
+    "e": "27° 44' 10.67 E",
+    "gradient": "linear-gradient(0deg, #DAA520, transparent)"
+  },
+
+  {
+    "id": "id-3",
+    "title": "Святой Влас",
+    "type": "Город",
+    "n": "42° 41' 20.99 N",
+    "e": "27° 42' 17.99 E",
+    "gradient": "linear-gradient(0deg, #009ece, transparent)"
+  }
+]
